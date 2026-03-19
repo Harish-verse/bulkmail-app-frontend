@@ -34,7 +34,7 @@ function mail(){
     const send = ()=>
     {
         setstatus(true)
-              axios.post("https://bulkmail-app-backend-djyh.onrender.com/success",{msg:msg,emailList:emailList})
+             axios.post("https://bulkmail-app-backend-ay7s.onrender.com/success",{msg:msg,emailList:emailList})
         .then(function(data){
             if(data.data === true)
             {
