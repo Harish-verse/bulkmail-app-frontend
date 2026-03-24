@@ -42,6 +42,7 @@ function mail(){
                 alert("Email sent successfully")
             }else{
                 alert("failed")
+                setstatus(false)
             }
         })
     }
